@@ -1,11 +1,12 @@
 // Source: Tokopedia
 const PRODUCTS = [
   {
-    name: "Whitelab Basic Skincare (SSP) - Sabun, Sunscreen, Pelembap - Esensial",
+    name: "Basic Skincare (SSP) - Sabun, Sunscreen, Pelembap - Esensial",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-basic-skincare-ssp-sabun-sunscreen-pelembap-esensial?extParam=whid%3D8408040",
     product_id: "3160685489",
     price: {
+      text: 217710,
       text_idr: "Rp 217.710",
       __typename: "ProductListPrice",
     },
@@ -67,6 +68,7 @@ const PRODUCTS = [
       "https://www.tokopedia.com/whitelab/sensitive-skin-warrior?extParam=whid%3D8408040",
     product_id: "5022288708",
     price: {
+      text: 229860,
       text_idr: "Rp 229.860",
       __typename: "ProductListPrice",
     },
@@ -123,11 +125,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Paket Brightening Wajah (Kulit Sensitif) - Pencerah Kulit",
+    name: "Paket Brightening Wajah (Kulit Sensitif) - Pencerah Kulit",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-paket-brightening-wajah-kulit-sensitif-pencerah-kulit?extParam=whid%3D8408040",
     product_id: "4767797304",
     price: {
+      text: 250740,
       text_idr: "Rp 250.740",
       __typename: "ProductListPrice",
     },
@@ -184,11 +187,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Paket Acne (Kulit Sensitif) - Kulit Jerawat",
+    name: "Paket Acne (Kulit Sensitif) - Kulit Jerawat",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-paket-acne-kulit-sensitif-kulit-jerawat?extParam=whid%3D8408040",
     product_id: "4767652292",
     price: {
+      text: 275670,
       text_idr: "Rp 275.670",
       __typename: "ProductListPrice",
     },
@@ -245,11 +249,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Basic Skincare (SSP) - Sabun, Sunscreen, Pelembap - Esensial",
+    name: "Basic Skincare (SSP) - Sabun, Sunscreen, Pelembap - Esensial",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-basic-skincare-ssp-sabun-sunscreen-pelembap-esensial?extParam=whid%3D8408040",
     product_id: "3160685489",
     price: {
+      text: 217710,
       text_idr: "Rp 217.710",
       __typename: "ProductListPrice",
     },
@@ -306,11 +311,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Eye Cream - Krim Mata Atasi Kerutan, Garis Halus, Mata Panda",
+    name: "Eye Cream - Krim Mata Atasi Kerutan, Garis Halus, Mata Panda",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-eye-cream-krim-mata-atasi-kerutan-garis-halus-mata-panda?extParam=whid%3D8408040",
     product_id: "1631384561",
     price: {
+      text: 79242,
       text_idr: "Rp 79.242",
       __typename: "ProductListPrice",
     },
@@ -374,11 +380,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Acne Soap - Sabun Wajah Dan Badan Untuk Kulit Berjerawat",
+    name: "Acne Soap - Sabun Wajah Dan Badan Untuk Kulit Berjerawat",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-acne-soap-sabun-wajah-dan-badan-untuk-kulit-berjerawat?extParam=whid%3D8408040",
     product_id: "1558697389",
     price: {
+      text: 29140,
       text_idr: "Rp 29.140",
       __typename: "ProductListPrice",
     },
@@ -442,11 +449,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Brightening Body Serum + Underarm - Pencerah Kulit Badan",
+    name: "Brightening Body Serum + Underarm - Pencerah Kulit Badan",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-brightening-body-serum-underarm-pencerah-kulit-badan?extParam=whid%3D8408040",
     product_id: "958821114",
     price: {
+      text: 133830,
       text_idr: "Rp 133.830",
       __typename: "ProductListPrice",
     },
@@ -503,11 +511,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Underarm Cream - Krim Pencerah Ketiak Selangkangan",
+    name: "Underarm Cream - Krim Pencerah Ketiak Selangkangan",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-underarm-cream-krim-pencerah-ketiak-selangkangan?extParam=whid%3D8408040",
     product_id: "772596448",
     price: {
+      text: 68808,
       text_idr: "Rp 68.808",
       __typename: "ProductListPrice",
     },
@@ -571,11 +580,12 @@ const PRODUCTS = [
     __typename: "ShopProductListDetail",
   },
   {
-    name: "Whitelab Brightening Body Serum - Pelembap Pencerah Kulit Badan",
+    name: "Brightening Body Serum - Pelembap Pencerah Kulit Badan",
     product_url:
       "https://www.tokopedia.com/whitelab/whitelab-brightening-body-serum-pelembap-pencerah-kulit-badan?extParam=whid%3D8408040",
     product_id: "772549692",
     price: {
+      text: 70876,
       text_idr: "Rp 70.876",
       __typename: "ProductListPrice",
     },

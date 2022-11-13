@@ -22,6 +22,7 @@ export default function AppProduct() {
 
   function handleSearchProduct(e) {
     let value = e.target.value;
+
     if (value != "" && value.length > 2) {
       const searchedProduct = PRODUCTSRAW.filter((element) => {
         return element.name.toLowerCase().includes(value.toLowerCase());
@@ -31,6 +32,43 @@ export default function AppProduct() {
     } else {
       setProducts((products) => (products = PRODUCTSRAW));
     }
+  }
+
+  function handleSortProduct(e) {
+    let value = e.target.value;
+    let clone = structuredClone(products);
+
+    switch (value) {
+      case "name-asc":
+        clone.sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      case "name-desc":
+        clone.sort((a, b) => b.name.localeCompare(a.name));
+        break;
+      case "price-asc":
+        clone.sort((a, b) =>
+          a.price.text
+            .toString()
+            .localeCompare(b.price.text.toString(), undefined, {
+              numeric: true,
+            })
+        );
+        break;
+      case "price-desc":
+        clone.sort((a, b) =>
+          b.price.text
+            .toString()
+            .localeCompare(a.price.text.toString(), undefined, {
+              numeric: true,
+            })
+        );
+        break;
+      default:
+        clone = PRODUCTSRAW;
+        break;
+    }
+
+    setProducts(clone);
   }
 
   return (
@@ -150,9 +188,8 @@ export default function AppProduct() {
                 </div>
                 <div className="ml-3">
                   <select
-                    id="SortBy"
-                    name="sort_by"
                     className="rounded border-gray-100 text-sm"
+                    onChange={(e) => handleSortProduct(e)}
                   >
                     <option readOnly="">Urutkan</option>
                     <option value="name-asc">Nama, A-Z</option>
