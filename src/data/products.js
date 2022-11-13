@@ -1,5 +1,5 @@
 // Source: Tokopedia
-const products = [
+const PRODUCTS = [
   {
     name: "Whitelab Basic Skincare (SSP) - Sabun, Sunscreen, Pelembap - Esensial",
     product_url:
@@ -640,4 +640,4 @@ const products = [
   },
 ];
 
-export default products;
+export default PRODUCTS;
