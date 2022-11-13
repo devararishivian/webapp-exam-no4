@@ -182,9 +182,6 @@ export default function AppProduct() {
                     placeholder="Cari produk .."
                     onChange={(e) => handleSearchProduct(e)}
                   />
-                  <span className="absolute inset-y-0 right-4 inline-flex items-center">
-                    <IconSearch className="h-5 w-5 text-gray-400"></IconSearch>
-                  </span>
                 </div>
                 <div className="ml-3">
                   <select

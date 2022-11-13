@@ -1,3 +1,5 @@
+import LandingSVG from "./LandingSVG";
+
 export default function AppHero() {
   return (
     <section className="flex h-screen text-gray-400 bg-gray-900">
@@ -20,11 +22,7 @@ export default function AppHero() {
           </div>
         </div>
         <div className="hidden md:block lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="https://dummyimage.com/720x600"
-          />
+          <LandingSVG />
         </div>
       </div>
     </section>
