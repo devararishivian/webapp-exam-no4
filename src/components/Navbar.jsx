@@ -2,7 +2,7 @@ import { Disclosure } from "@headlessui/react";
 import { Menu as IconMenu, X as IconX } from "react-feather";
 
 const navigation = [
-  { name: "Beranda", href: "#", current: true },
+  { name: "Beranda", href: "/", current: true },
   { name: "Produk", href: "#produk", current: false },
 ];
 
@@ -14,11 +14,11 @@ export default function AppNavbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-pink-700 fixed w-full top-0 z-10 bg-opacity-30 backdrop-filter backdrop-blur-lg"
+      className="bg-pink-700 fixed w-full bg-opacity-30 backdrop-filter backdrop-blur-lg"
     >
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto container px-2 sm:px-0">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
